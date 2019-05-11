@@ -1,0 +1,4 @@
+node_modules/
+build/
+# Syslink for local testing
+react/
