@@ -57,14 +57,14 @@ const App = (props) => (
       </div>
       <div>
         <h3>Color (and <code>currentColor</code>)</h3>
-        <span style={{ fill:'pink' }}>
+        <span style={{ color:'pink' }}>
           <Icon path={mdiAccountSearch} />
         </span>
         <Icon path={mdiAccountSearch} color="red" />
         <Icon path={mdiAccountSearch} color="#F0F" />
         <Icon path={mdiAccountSearch} color="rgba(255, 0, 0, 0.5)" />
         <pre><code>{[
-          '<span style={{ fill:"pink" }}>',
+          '<span style={{ color:"pink" }}>',
           '  <Icon path={mdiAccountSearch} />',
           '</span>',
           '<Icon path={mdiAccountSearch} color="red"/>',
