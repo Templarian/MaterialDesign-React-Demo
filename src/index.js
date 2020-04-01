@@ -7,7 +7,7 @@ import {
   mdiCircle, mdiCheck, mdiBorderColor, mdiFormatColorText, mdiSmoking,
   mdiShape, mdiShapeOutline, mdiArrowUpBoldOutline, mdiArrowUpBold,
   mdiArrowDownBoldCircle, mdiBorderAll, mdiBorderRight, mdiMessage,
-  mdiMessageAlertOutline, mdiGithubCircle, mdiNpmVariantOutline,
+  mdiMessageAlertOutline, mdiGithub, mdiNpm,
   mdiCubeUnfolded
 } from "@mdi/js";
 
@@ -17,10 +17,10 @@ const App = (props) => (
       Demo
       <code>npm install @mdi/react</code>
       <a href="https://github.com/Templarian/MaterialDesign-React" title="View on GitHub">
-        <Icon path={mdiGithubCircle} color="#FFF" />
+        <Icon path={mdiGithub} color="#FFF" />
       </a>
       <a href="https://npmjs.com/package/@mdi/react" title="NPM">
-        <Icon path={mdiNpmVariantOutline} color="#FFF" />
+        <Icon path={mdiNpm} color="#FFF" />
       </a>
     </h1>
     <h2>Icon Component</h2>
