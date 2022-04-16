@@ -6,18 +6,31 @@
   "main": "src/index.js",
   "private": true,
   "dependencies": {
-    "@mdi/js": "5.0.45",
-    "@mdi/react": "1.4.0",
-    "prop-types": "^15.7.2",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
-    "react-scripts": "1.1.4"
+    "@mdi/js": "6.6.96",
+    "@mdi/react": "1.6.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "5.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prop-types": "^15.7.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
